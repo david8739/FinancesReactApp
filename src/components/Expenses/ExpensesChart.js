@@ -1,4 +1,4 @@
-import Chart from '../Chart'
+import Chart from '../Chart/Chart'
 
 const ExpensesChart = props => {
     const chartDataPoints = [
@@ -24,3 +24,5 @@ const ExpensesChart = props => {
 
     return <Chart dataPoints={chartDataPoints} />; 
 }
+
+export default ExpensesChart; 
